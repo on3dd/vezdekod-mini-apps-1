@@ -1,11 +1,17 @@
 import React from 'react';
+import styled from 'styled-components';
 
-const App: React.FC = () => {
+import { GlobalStyles } from './utils/globalStyles';
+import { AboutUs } from './components/AboutUs';
+
+const Container = styled.main``;
+
+export const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">limbus</header>
-    </div>
+    <Container>
+      <GlobalStyles />
+
+      <AboutUs />
+    </Container>
   );
 };
-
-export default App;
