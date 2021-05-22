@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { AboutUsMember } from '@limbus-mini-apps';
 
-import { COLORS, BREAKPOINTS } from '../../utils/constants';
+import { COLORS } from '../../utils/constants';
 
 import { AboutUsMembers } from './AboutUsMembers';
 
